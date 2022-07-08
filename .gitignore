@@ -1,0 +1,55 @@
+# Bazel
+bazel-*
+.clwb
+
+# Temporary files
+*.pyc
+*.swp
+*.swo
+
+# Generated files
+*.result
+py_proto
+
+# Eclipse IDE files
+.project
+.cproject
+.settings
+.classpath
+
+# IntelliJ files
+.idea
+
+# VS Code files
+.vscode
+
+# Atom IDE files
+*.gch
+
+# Logs
+nohup.out
+*.bak
+*.stderr
+*.stdout
+
+# Editor configs
+.ycm_extra_conf.py
+
+# Data
+/data
+modules/tools/ota/update.ini
+modules/tools/ota/vehicle_info.pb.txt
+docker/build/syspkgs.txt
+
+# Localization
+modules/localization/msf/local_map/test_data/ndt_map/map_data
+
+# python proto
+*_pb2.py
+
+# bazel cache and others
+.cache/
+.errors.log
+
+# Directory for binary distribution
+output
